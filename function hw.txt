@@ -1,0 +1,11 @@
+New
+Tommy Suwunrut  10:05 PM
+
+const quickBrownFox = "The quick brown fox jumped over the lazy dog";// function formatString() {// }const formatString = () => {
+  const formattedString = quickBrownFox
+    .toLowerCase()
+    .split("")
+    .sort()
+    .join("")
+    .trim();  console.log(formattedString);
+}formatString()

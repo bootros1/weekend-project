@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google</title>
+</head>
+<body>
+    <nav class="nav-header">
+        <ul class="nav-left">
+            <li><a href="https://about.google">About</a></li>
+            <li><a href="https://store.google.com">Store</a></li>
+        </ul>
+        <ul class="nav-right">
+            <li><a href="https://mail.google.com">Gmail</a></li>
+            <li><a href="https://images.google.com">Images</a></li>
+            <li></li>
+            <li id="user-account"></li>
+        </ul>
+    </nav>
+
+    <br>
+    <hr>
+
+    <main>
+        <div class="main-center">
+            <img id="google-image" src="http://pngimg.com/uploads/google/google_PNG19644.png">
+            <form action="https://google.com" method="GET" class="search">
+                <div>
+                    <textarea cols="50px" rows=""></textarea>
+                </div>
+                <div class="button-search">
+                    <button type="submit" value="Search">Google Search</button>
+                    <button type="button">I'm Feeling Lucky</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <br>
+    <hr>
+   
+
+    <footer class="footer-main">
+        <ul class="footer-left">
+            <li><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+            <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">How Search works</a></li>
+        </ul>
+        </ul>
+        <ul class="footer-right">
+            <li><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+            <li><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+            <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+            </ul>
+    </footer>
+
+</body>
+</html>
+
+							-CSS-
+Bootros Belance <bbelance28@gmail.com>
+	
+Fri, Apr 24, 5:37 PM (20 hours ago)
+	
+to me
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 100vw;
+    overflow: hidden;
+}
+main{
+   
+}
+
+/*------------- Header --------*/
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8vw;
+   
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+}
+.nav-right > li, .nav-left > li{
+    padding: 0 2vw 0 2vw;
+    margin: 2vw 0 0 0;
+}
+#user-account{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 10px;
+    height:10px;
+}
+
+/*---------- Body ---------*/
+#google-image{
+    width: 40vw;
+    height: 20vw;
+    align-self: center;
+}
+.main-center{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+textarea{
+    resize: none;
+}
+.button-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*--------Button----------*/
+button:hover{
+    border: none;
+    align-content: center;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    padding: 8px;
+
+}
+   
+textarea{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+
+
+/*--------Footer -----------*/
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(242, 242, 242);
+    padding: 1px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    border: 1px;
+
+   
+
+}
+.footer-left{
+   
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.footer-right{
+   
+    display: flex;
+    flex-direction: row;
+     
+
+   
+   
+}
+    .footer-right > li {
+        ;
+        padding: 0 2vw 0 2vw;
+        margin: 2vw 0 0 0;
+    }
+.footer-left > li {
+   
+    padding: 0 2vw 0 2vw;
+    margin: 2vw 0 0 0;
+}
+
+.footer-main a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-main a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.nav-header a{
+    text-decoration: none;
+color: rgb(92, 92, 92)
+}

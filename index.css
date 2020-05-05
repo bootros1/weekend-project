@@ -1,0 +1,131 @@
+.main-container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.main-page{
+    width: 80%;
+    text-align: right;
+    display: flex;
+    background-color: rgb(239, 236, 231);
+}
+.san-fran{
+    border: 1px none;
+    background-color: purple;
+    color: white;
+    margin-right: 65%;
+    padding: 1px;
+    font-size: smaller;
+    display: flex;
+    width: 182px;
+    height: 38px;
+    padding-left: 15px;
+}
+.san-fran > span {
+    padding-top: 5px;
+    padding-right: 10px;
+    font-size: 22px;
+
+}
+.input{
+    box-sizing: border-box;
+    border: 1px none ;
+    background-color: purple;
+    margin-right: 65%;
+    
+}
+.aapl{
+    border: 1px none;
+    background-color: rgb(197, 158, 197);
+    color: white;
+    margin-right: -4%;
+    padding: 15px;
+    height: 20px;
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.yhoo{
+    border: 1px none ;
+    background-color: rgb(187, 102, 187);
+    color: white;
+    margin-right: -4%;
+    padding: 15px;
+    height: 20px;
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.soccer{
+    border: 1px none ;
+    background-color: rgb(182, 41, 182);
+    color: white;
+    margin-right: 9%;
+    padding: 1px;
+    font-size: 8px;
+    height: 39px;
+    width: 250px;
+
+}
+.pharma
+{
+    border: 1px none ;
+    background-color: rgb(143, 49, 143);
+    color: white;
+    margin-right: 70%;
+    padding: 1px;
+    width: 150px;
+    height: 39px;
+    font-size: x-small;
+}    
+
+.side-info{
+    background-color: white;
+    color: purple;
+    width: 20%;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: justify;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.side-info > ul {
+        padding-left: 15px;
+    }
+
+span{
+    font-size: 8px;
+    color: plum;
+}
+.side-paragraph{
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+.side-p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+h6{
+    font-size: 7px;
+}
+.image{
+    height: 100%;
+    margin-left: auto;
+   
+}
+.whole{
+    padding-top: 60px;
+}
+.box{
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 400px;
+    justify-content: space-between;
+
+
+}

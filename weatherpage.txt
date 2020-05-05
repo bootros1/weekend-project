@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WynWeather!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body class="sunny">
+    <div>
+      <h1>April 27, 2020</h1>
+    </div>    <form action="#">
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" placeholder="Miami, FL">
+      <button type="submit">Submit</button>
+    </form>    <div>Party cloudy with a chance of sun!</div>    <div id="temp"> <span>72&deg;</span></div>  </body>
+</html>
+
+						--CSS--
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}body{
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}#temp{
+  font-size: 64px;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 24px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}.cloudy{
+  background-image: url(images/cloudy.jpg);
+}.sunny{
+  background-image: url(images/sunny.jpg);
+}.rainy{
+  background-image: url(images/rainy.jpg);
+}@media only screen and (max-width: 600px){
+  #temp{
+    color: blue;
+  }
+}
